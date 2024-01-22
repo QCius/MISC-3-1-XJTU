@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU

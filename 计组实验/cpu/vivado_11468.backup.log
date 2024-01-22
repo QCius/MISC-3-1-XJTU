@@ -1,0 +1,1593 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Dec 10 15:04:42 2023
+# Process ID: 11468
+# Current directory: C:/Users/Jiefucious/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10020 C:\Users\Jiefucious\project_4\project_4.xpr
+# Log file: C:/Users/Jiefucious/project_4/vivado.log
+# Journal file: C:/Users/Jiefucious/project_4\vivado.jou
+# Running On: DESKTOP-IR5DHEO, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 17020 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jiefucious/project_4/project_4.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Jiefucious/project_4/project_4.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 1454.168 ; gain = 286.191
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:91]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1556.793 ; gain = 44.961
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+ERROR: [VRFC 10-2989] 'instruction' is not declared [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:68]
+ERROR: [VRFC 10-8530] module 'CPU' is ignored due to previous errors [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:1]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'instruction' on this module [C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1556.793 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/sim_CPU/cpu}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/sim_CPU/cpu/dm}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2639.695 ; gain = 0.000
+current_wave_config {Untitled 3}
+Untitled 3
+add_wave {{/sim_CPU/cpu}} 
+current_wave_config {Untitled 3}
+Untitled 3
+add_wave {{/sim_CPU/cpu/dm}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2642.949 ; gain = 0.000
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/sim_CPU/cpu}} 
+current_wave_config {Untitled 4}
+Untitled 4
+add_wave {{/sim_CPU/cpu/dm}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2642.949 ; gain = 0.000
+current_wave_config {Untitled 5}
+Untitled 5
+add_wave {{/sim_CPU/cpu/dm}} 
+current_wave_config {Untitled 5}
+Untitled 5
+add_wave {{/sim_CPU/cpu}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2654.832 ; gain = 0.000
+current_wave_config {Untitled 6}
+Untitled 6
+add_wave {{/sim_CPU/cpu/dm}} 
+current_wave_config {Untitled 6}
+Untitled 6
+add_wave {{/sim_CPU/cpu/state}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:91]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2654.832 ; gain = 0.000
+current_wave_config {Untitled 7}
+Untitled 7
+add_wave {{/sim_CPU/cpu/dm}} 
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:79]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:88]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+instruction = xxxxxxxx
+MemToReg=x, MemWrite=x, Branch=x, ALUSrc=x, RegDst=x, RegWrite=x, Jump=x, Zero=z
+alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+instruction = 08000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=0, RegWrite=0, Jump=1, Zero=z
+instruction = 00000000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = 20010001
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=1, RegDst=0, RegWrite=1, Jump=0, Zero=z
+instruction = 00011000
+MemToReg=0, MemWrite=0, Branch=0, ALUSrc=0, RegDst=1, RegWrite=1, Jump=0, Zero=z
+instruction = ac010001
+MemToReg=0, MemWrite=1, Branch=0, ALUSrc=1, RegDst=0, RegWrite=0, Jump=0, Zero=z
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2654.832 ; gain = 0.000
+current_wave_config {Untitled 8}
+Untitled 8
+add_wave {{/sim_CPU/cpu}} 
+export_ip_user_files -of_objects  [get_files C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v] -no_script -reset -force -quiet
+remove_files  C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v
+file delete -force C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/d_latch.v
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_CPU'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_CPU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_CPU_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:41]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainDec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SigExt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder38
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateMachine
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SUB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Jiefucious/project_4/project_4.srcs/sim_1/new/sim_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_CPU
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_CPU_behav xil_defaultlib.sim_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 1 for port 'state' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:58]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'original' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:59]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.StateMachine
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.MainDec
+Compiling module xil_defaultlib.ALUDec
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.SigExt
+Compiling module xil_defaultlib.MUX2
+Compiling module xil_defaultlib.Decoder38
+Compiling module xil_defaultlib.ADD
+Compiling module xil_defaultlib.SUB
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.sim_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_CPU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Jiefucious/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_CPU_behav -key {Behavioral:sim_1:Functional:sim_CPU} -tclbatch {sim_CPU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source sim_CPU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# log_wave -r /
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_CPU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2654.832 ; gain = 0.000
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: CPU
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+WARNING: [Synth 8-11121] redeclaration of ANSI port 'Branch' is not allowed [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:41]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2654.832 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CPU' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StateMachine' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'StateMachine' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/StateMachine.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IM' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/Jiefucious/project_4/instructions.txt' is read successfully [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'IM' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/IM.v:23]
+WARNING: [Synth 8-6104] Input port 'instruction1' has an internal driver [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:57]
+INFO: [Synth 8-6157] synthesizing module 'Controller' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MainDec' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MainDec' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MainDec.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALUDec' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALUDec' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALUdec.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Controller' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CU.v:23]
+WARNING: [Synth 8-689] width (3) of port connection 'state' does not match port width (1) of module 'Controller' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:58]
+INFO: [Synth 8-6157] synthesizing module 'SigExt' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SigExt' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SigExt.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'original' does not match port width (16) of module 'SigExt' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:59]
+INFO: [Synth 8-6157] synthesizing module 'MUX2' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/MUX2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Decoder38' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Decoder38' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/decoder38.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ADD' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ADD' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ADD.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SUB' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'SUB' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/SUB.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DataMemory' [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemory' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (0#1) [C:/Users/Jiefucious/project_4/project_4.srcs/sources_1/new/CPU.v:1]
+WARNING: [Synth 8-7129] Port DAddr[31] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[30] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[29] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[28] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[27] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[26] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[25] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[24] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[23] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[22] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[21] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[20] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[19] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[18] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[17] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[16] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[15] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[14] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[13] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[12] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[11] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DAddr[10] in module DataMemory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[25] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[24] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[23] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[22] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[21] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[20] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[19] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[18] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[17] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[16] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[15] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[14] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[13] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[12] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[11] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[10] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[9] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[8] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[7] in module Controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[6] in module Controller is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2654.832 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2654.832 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2654.832 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2654.832 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2654.832 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 2654.832 ; gain = 0.000
+30 Infos, 46 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2654.832 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 10 16:28:03 2023...

@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jan 22 10:31:33 2024
+# Process ID: 1956
+# Current directory: C:/资料/[Current] Grade 3 1st/XJ-3-1-misc/计组实验/cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1648 C:\资料\[Current] Grade 3 1st\XJ-3-1-misc\计组实验\cpu\project_4.xpr
+# Log file: C:/资料/[Current] Grade 3 1st/XJ-3-1-misc/计组实验/cpu/vivado.log
+# Journal file: C:/资料/[Current] Grade 3 1st/XJ-3-1-misc/计组实验/cpu\vivado.jou
+# Running On: DESKTOP-IR5DHEO, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 17020 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/资料/[Current] Grade 3 1st/XJ-3-1-misc/计组实验/cpu/project_4.xpr}
+

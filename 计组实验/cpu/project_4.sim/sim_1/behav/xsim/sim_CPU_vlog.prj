@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_4.srcs/sources_1/new/ADD.v" \
+"../../../../project_4.srcs/sources_1/new/ALU.v" \
+"../../../../project_4.srcs/sources_1/new/ALUdec.v" \
+"../../../../project_4.srcs/sources_1/new/CU.v" \
+"../../../../project_4.srcs/sources_1/new/DataMemory.v" \
+"../../../../project_4.srcs/sources_1/new/IM.v" \
+"../../../../project_4.srcs/sources_1/new/MUX2.v" \
+"../../../../project_4.srcs/sources_1/new/MainDec.v" \
+"../../../../project_4.srcs/sources_1/new/SigExt.v" \
+"../../../../project_4.srcs/sources_1/new/decoder38.v" \
+"../../../../project_4.srcs/sources_1/new/CPU.v" \
+"../../../../project_4.srcs/sources_1/new/PC.v" \
+"../../../../project_4.srcs/sources_1/new/StateMachine.v" \
+"../../../../project_4.srcs/sources_1/new/SUB.v" \
+"../../../../project_4.srcs/sim_1/new/sim_CPU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
